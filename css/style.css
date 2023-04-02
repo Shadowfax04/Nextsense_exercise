@@ -85,6 +85,9 @@ body {
 }
 .add-btn {
     border-radius: 50%;
+    -webkit-border-radius: 50%;
+     -khtml-border-radius: 50%;
+       -moz-border-radius: 50%;
     background-color: transparent;
     color: white;
     font-size: 25px;
@@ -278,6 +281,9 @@ footer p{
     outline: 1px solid var(--main-color-blue);
     background-color: var(--main-color-blue);
     border-radius: 50%;
+    -webkit-border-radius: 50%;
+     -khtml-border-radius: 50%;
+       -moz-border-radius: 50%;
     padding: 8px;
     font-size: 20px;
     width: 40px;
@@ -312,3 +318,11 @@ footer p{
 .cart p{
     margin-bottom: 0;
 }
+@media (max-width: 576px) { 
+    .col-md-6, .col-md-5, .col-md-3{
+        margin: 25px 0!important;
+    }
+    .nextsense-modal-btn-container{
+        justify-content: start;
+    }
+ }
