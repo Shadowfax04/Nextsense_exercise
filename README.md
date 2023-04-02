@@ -10,7 +10,7 @@ SweetAlert
 Features
 Bootstrap Carousel
 Bootstrap Grid
-Bootstrap Models
+Bootstrap Modals
 SweetAlert alerts
 
 # Installation and Usage
