@@ -102,13 +102,37 @@
     </div>
     <!-- CAROUSEL END -->
     <!-- NAVBAR START -->
-    <nav id="navbar" class="bg-nextsense-black sticky-nav">
-      <ul class="navbar-links">
-        <li class="nav-link"><a class="active" href="#carousel">Home</a></li>
-        <li class="nav-link"><a href="#grid">Store</a></li>
-        <li class="nav-link"><a href="#about">About</a></li>
-        <li class="nav-link"><a href="#contact">Contact</a></li>
-      </ul>
+    <nav
+      class="navbar navbar-expand-lg sticky-top navbar-dark bg-nextsense-black"
+      id="navbar"
+    >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarToggler"
+        aria-controls="navbarToggler"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse nav-container" id="navbarToggler">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="#home">Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#grid">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
     </nav>
     <!-- NAVBAR END -->
 
@@ -124,14 +148,38 @@
       </div>
       <div class="container grid-container">
         <div class="row">
-          <div class="col-md-6 block"></div>
-          <div class="col-md-6 block flex-column">
+          <div class="col-md-6">
+            <img
+              src="./images/grid/smartwatch_submerged.jpg"
+              class="grid-image"
+              alt="submerged"
+            />
+          </div>
+          <div class="col-md-6">
             <div class="row">
-              <div class="col-md-6 block"></div>
-              <div class="col-md-6 block"></div>
+              <div class="col-md-6 small-block">
+                <img
+                  src="./images/grid/laptop_table.jpg"
+                  class="grid-image"
+                  alt="submerged"
+                />
+              </div>
+              <div class="col-md-6 small-block">
+                <img
+                  src="./images/grid/mouse.jpg"
+                  class="grid-image"
+                  alt="submerged"
+                />
+              </div>
             </div>
             <div class="row">
-              <div class="col-md-12 block"></div>
+              <div class="col medium-block">
+                <img
+                  src="./images/grid/watch_hand.jpg"
+                  class="grid-image"
+                  alt="submerged"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -175,16 +223,18 @@
               </ul>
             </div>
           </div>
-          <div class="offset-2 col-md-2">
+          <div class="offset-1 col-md-3 px-0">
             <!-- Button trigger modal -->
-            <button
-              type="button"
-              class="nextsense-btn"
-              data-bs-toggle="modal"
-              data-bs-target="#modal"
-            >
-              Open modal
-            </button>
+            <div class="nextsense-modal-btn-container">
+              <button
+                type="button"
+                class="nextsense-btn"
+                data-bs-toggle="modal"
+                data-bs-target="#modal"
+              >
+                Open modal
+              </button>
+            </div>
           </div>
         </div>
         <div class="row">
@@ -305,6 +355,9 @@
         </div>
       </div>
     </section>
+    <footer class="bg-nextsense-black">
+      <p>Copyright 2022 - Nextsense</p>
+    </footer>
 
     <!-- MODALS -->
     <div
