@@ -1,5 +1,4 @@
 # Description 
-
 This is a small static webpage built using HTML, CSS, Bootstrap, and jQuery. The page contains various Bootstrap components such as Bootstrap Carousel, Bootstrap Grid, and Bootstrap Models.
 
 # Technologies Used 
@@ -13,6 +12,7 @@ Bootstrap Carousel
 Bootstrap Grid
 Bootstrap Models
 SweetAlert alerts
+
 # Installation and Usage
 To view this webpage, simply open the index.html file in your preferred web browser.
 
@@ -21,7 +21,6 @@ The webpage is easy to use and navigate. Click on the navigation bar links to mo
 
 # SweetAlert Alerts
 SweetAlert has been used to display alerts when the user interacts with certain elements on the page. For example, if the user clicks the "Send" button in the form in the Contact section, a SweetAlert alert will pop up.
-
 
 # Link
 https://interview-app-nextsense.netlify.app/

@@ -103,6 +103,9 @@ body {
     font-weight: 400;
     color: white;
 }
+.add-btn-text:hover{
+    cursor: pointer;
+}
 .grid-image{
     max-width: 100%;
     min-height: 100%;
@@ -308,15 +311,21 @@ footer p{
     justify-content: space-between;
     width: 100vw;
     padding: 15px 15%;
+    margin-top: 24px;
 }
 .cart{
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 16px;
+    font-size:20px;
 }
 .cart p{
     margin-bottom: 0;
+}
+.logo {
+    font-size: 24px;
+    font-weight: 900;
 }
 @media (max-width: 576px) { 
     .col-md-6, .col-md-5, .col-md-3{
