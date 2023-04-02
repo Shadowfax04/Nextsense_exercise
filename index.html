@@ -22,6 +22,14 @@
     data-offset="50"
     tabindex="0"
   >
+    <div id="home" class="basket">
+      <div class="basket-container">
+        <div>LOGO</div>
+        <div class="cart"><p>Cart</p>
+            <span id="basketCounter" class="badge badge-pill badge-primary circle">0</span>
+        </div>
+      </div>
+    </div>
     <!-- CAROUSEL START -->
     <div id="carousel" class="carousel slide vh-100">
       <div class="carousel-inner mh-100">
@@ -279,7 +287,7 @@
       </div>
       <div class="container">
         <div class="row">
-          <form class="col-md-5 nextsense-form">
+          <form id="contactForm"class="col-md-5 nextsense-form">
             <div class="nextsense-input-group">
               <label for="name">Full Name</label>
               <input
@@ -398,5 +406,8 @@
       integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
       crossorigin="anonymous"
     ></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.slim.min.js" integrity="sha256-a2yjHM4jnF9f54xUQakjZGaqYs/V1CYvWpoqZzC2/Bw=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>

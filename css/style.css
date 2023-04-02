@@ -14,6 +14,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     background-color: var(--main-color-black);
     scroll-behavior: smooth;
+    position:relative;
 }
 
 /* SLIDES */
@@ -73,7 +74,6 @@ body {
 .promotion{
     color: var(--main-color-blue);
 }
-
 /* BUTTONS */
 .add-to-cart-container{
     display: flex;
@@ -83,7 +83,7 @@ body {
 .add-btn::after{
     content: var(--main-add-sign);
 }
-.add-btn{
+.add-btn {
     border-radius: 50%;
     background-color: transparent;
     color: white;
@@ -268,4 +268,47 @@ footer p{
     display: flex;
     justify-content: end;
 
+}
+.modal-content {
+    color: var(--main-color-black);
+}
+/* TRANSPARENT NAV BAR*/
+.circle{
+    text-align: center;
+    outline: 1px solid var(--main-color-blue);
+    background-color: var(--main-color-blue);
+    border-radius: 50%;
+    padding: 8px;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.basket{
+    background: transparent;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+}
+.basket-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 15px 15%;
+}
+.cart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+.cart p{
+    margin-bottom: 0;
 }
